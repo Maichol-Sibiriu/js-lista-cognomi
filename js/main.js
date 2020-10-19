@@ -7,3 +7,8 @@ var user = prompt("qual'e' il tuo cognome??").toLowerCase();
 list.push(user);
 console.log(list);
 // stampa lista in ordine alfabetico
+list.sort();
+console.log(list);
+// stampa posizione "umana" del cognome utente nella lista
+var index = list.indexOf(user) + 1;
+console.log(index);
